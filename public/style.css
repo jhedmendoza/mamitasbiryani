@@ -1,0 +1,60 @@
+HTML CSS JSResult Skip Results Iframe
+EDIT ON
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #f1f5fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  background: #3B3364;
+  border-radius: 100rem;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.switch__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #3B3364;
+  border-radius: 100rem;
+  width: 20rem;
+  height: 100%;
+  z-index: -1;
+}
+
+.egg {
+  height: 14.4rem;
+  width: 32.4rem;
+}
+
+.egg__mainGroup {
+  transform: translate(2.2rem, calc(2.2rem + 1.2px));
+}
+
+.egg__white.-hidden {
+  visibility: hidden;
+}
+Run Pen
+
+Resources1× 0.5× 0.25×Rerun
